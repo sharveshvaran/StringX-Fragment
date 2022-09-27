@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">StringX-Fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="result">Result</string>
+    <string name="string_operations">String Operations</string>
+    <string name="append">Append</string>
+    <string name="reverse">Reverse</string>
+    <string name="split">Split</string>
+    <string name="uppercase">Uppercase</string>
+</resources>

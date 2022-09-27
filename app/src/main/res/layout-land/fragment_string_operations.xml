@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/background_color"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/string_operations_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/functions_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="cursive"
+            android:text="@string/string_operations"
+            android:textColor="?attr/text_color"
+            android:textSize="37sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/append_Button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_corners"
+                    android:text="@string/append"
+                    android:textAllCaps="false"
+                    android:textColor="?attr/text_color" />
+
+                <Button
+                    android:id="@+id/reverse_Button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="50dp"
+                    android:background="@drawable/round_corners"
+                    android:text="@string/reverse"
+                    android:textAllCaps="false"
+                    android:textColor="?attr/text_color" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/split_Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_corners"
+                    android:text="@string/split"
+                    android:textAllCaps="false"
+                    android:textColor="?attr/text_color" />
+
+                <Button
+                    android:id="@+id/uppercase_Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:background="@drawable/round_corners"
+                    android:text="@string/uppercase"
+                    android:textAllCaps="false"
+                    android:textColor="?attr/text_color" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/result_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/result_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:fontFamily="cursive"
+            android:text="@string/result"
+            android:textColor="?attr/text_color"
+            android:textSize="37sp"/>
+
+        <TextView
+            android:id="@+id/output_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="50dp"
+            android:textAlignment="center"
+            android:textColor="?attr/text_color"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/view_functions_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"
+            android:padding="10dp"
+            android:background="@drawable/round_corners"
+            android:text="@string/string_operations"
+            android:textAllCaps="false"
+            android:textColor="?attr/text_color" />
+
+    </LinearLayout>
+</FrameLayout>

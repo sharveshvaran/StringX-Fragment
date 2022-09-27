@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.StringXFragment" parent="Theme.AppCompat.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#C803DAC5</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >@color/black</item>
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarTheme">@color/teal_200</item>
+
+        <item name="background_color">#E4000000</item>
+        <item name="text_color">#ffffff</item>
+        <item name="button_background">@color/teal_200</item>
+        <item name="submit_button">@color/teal_200</item>
+
+    </style>
+</resources>
